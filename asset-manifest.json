@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/notifications-page/static/css/main.27018621.css",
-    "main.js": "/notifications-page/static/js/main.d3f403b0.js",
+    "main.css": "/notifications-page/static/css/main.f8d8d9cf.css",
+    "main.js": "/notifications-page/static/js/main.1ebc5ff5.js",
     "static/js/787.0b05b966.chunk.js": "/notifications-page/static/js/787.0b05b966.chunk.js",
     "static/media/avatar-rizky-hasanuddin.webp": "/notifications-page/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/notifications-page/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
@@ -12,12 +12,12 @@
     "static/media/avatar-kimberly-smith.webp": "/notifications-page/static/media/avatar-kimberly-smith.00520dc2b2f8e585aac5.webp",
     "static/media/avatar-angela-gray.webp": "/notifications-page/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/notifications-page/index.html",
-    "main.27018621.css.map": "/notifications-page/static/css/main.27018621.css.map",
-    "main.d3f403b0.js.map": "/notifications-page/static/js/main.d3f403b0.js.map",
+    "main.f8d8d9cf.css.map": "/notifications-page/static/css/main.f8d8d9cf.css.map",
+    "main.1ebc5ff5.js.map": "/notifications-page/static/js/main.1ebc5ff5.js.map",
     "787.0b05b966.chunk.js.map": "/notifications-page/static/js/787.0b05b966.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27018621.css",
-    "static/js/main.d3f403b0.js"
+    "static/css/main.f8d8d9cf.css",
+    "static/js/main.1ebc5ff5.js"
   ]
 }
