@@ -39,9 +39,9 @@ export default function Card(props) {
         </span>
         <span className="text-grayishBlue text-sm">{props.data.time}</span>
         {props.data.message ? (
-          <p className=" mt-4 text-left text-darkGrayishBlue border-[1px] border-lightGrayishBlueTwo p-5 rounded-md hover:bg-lightGrayishBlueTwo">
+          <span className=" mt-4 text-left text-darkGrayishBlue border-[1px] border-lightGrayishBlueTwo p-5 rounded-md hover:bg-lightGrayishBlueTwo">
             {props.data.message}
-          </p>
+          </span>
         ) : null}
       </span>
     </button>
