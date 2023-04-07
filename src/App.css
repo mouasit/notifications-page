@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    @apply font-jakarta
+body,
+html {
+  @apply bg-veryLightGrayishBlue font-jakarta md:w-full md:min-h-screen md:flex md:justify-center items-center;
 }

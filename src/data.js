@@ -5,6 +5,7 @@ import avatarRizky from "./assets/images/avatar-rizky-hasanuddin.webp";
 import avatarKimberly from "./assets/images/avatar-kimberly-smith.webp";
 import avatarComment from "./assets/images/image-chess.webp";
 import avatarNathan from "./assets/images/avatar-nathan-peterson.webp";
+import avatarAnna from "./assets/images/avatar-anna-kim.webp";
 
 const data = [
   {
@@ -52,6 +53,13 @@ const data = [
     username: "nathan peterson",
     avatar: avatarNathan,
     post: "5 end-game strategies to increase your win rate",
+    time: "2 weeks ago",
+  },
+  {
+    type: "left",
+    username: "anna kim",
+    avatar: avatarAnna,
+    group: "Chess Club",
     time: "2 weeks ago",
   },
 ];

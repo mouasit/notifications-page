@@ -2,7 +2,7 @@ import React from "react";
 
 export default function CardComment(props) {
   return (
-    <button className="flex gap-3 items-start px-5 py-5">
+    <button className="flex gap-3 items-start px-5 py-5 rounded-md">
       <img src={props.data.avatar} alt="user" className="w-11 h-11" />
       <div className="flex items-center justify-between w-full">
         <div className="flex flex-col items-start">

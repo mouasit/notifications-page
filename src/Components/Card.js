@@ -3,7 +3,7 @@ import React from "react";
 export default function Card(props) {
   return (
     <button
-      className={`flex gap-3 items-start px-5 py-5 ${
+      className={`flex gap-3 items-start px-5 py-5 rounded-md ${
         props.data.latest ? "bg-veryLightGrayishBlue" : ""
       }`}
     >
@@ -21,6 +21,8 @@ export default function Card(props) {
             ? "has joined your group"
             : props.data.type === "sent"
             ? "sent you a private message"
+            : props.data.type === "left"
+            ? "left the group"
             : null}
           {props.data.post ? (
             <font className="text-darkGrayishBlue font-bold ml-[.4rem]">
