@@ -8,7 +8,7 @@ export default function Card(props) {
       }`}
     >
       <img src={props.data.avatar} alt="user" className="w-11 h-11" />
-      <span className="flex flex-col items-start">
+      <div className="flex flex-col items-start">
         <p className="text-left text-darkGrayishBlue">
           <span className="capitalize font-bold text-veryDarkBlue mr-[.4rem] hover:text-blue">
             {props.data.username}
@@ -43,7 +43,7 @@ export default function Card(props) {
             {props.data.message}
           </p>
         ) : null}
-      </span>
+      </div>
     </button>
   );
 }
