@@ -11,7 +11,7 @@ export default function Header() {
           3
         </span>
       </div>
-      <button className="font-bold text-sm text-grayishBlue">
+      <button className="font-bold text-sm text-grayishBlue hover:text-blue">
         Mark all as read
       </button>
     </div>

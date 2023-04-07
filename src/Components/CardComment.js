@@ -6,8 +6,8 @@ export default function CardComment(props) {
       <img src={props.data.avatar} alt="user" className="w-11 h-11" />
       <div className="flex items-center justify-between w-full">
         <div className="flex flex-col items-start">
-          <p className="text-left text-grayishBlue">
-            <font className="capitalize font-bold text-veryDarkBlue mr-[.4rem]">
+          <p className="text-left text-darkGrayishBlue">
+            <font className="capitalize font-bold text-veryDarkBlue mr-[.4rem] hover:text-blue">
               {props.data.username}
             </font>
             commented on your picture

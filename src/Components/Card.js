@@ -9,8 +9,8 @@ export default function Card(props) {
     >
       <img src={props.data.avatar} alt="user" className="w-11 h-11" />
       <div className="flex flex-col items-start">
-        <p className="text-left text-grayishBlue">
-          <font className="capitalize font-bold text-veryDarkBlue mr-[.4rem]">
+        <p className="text-left text-darkGrayishBlue">
+          <font className="capitalize font-bold text-veryDarkBlue mr-[.4rem] hover:text-blue">
             {props.data.username}
           </font>
           {props.data.type === "reaction"
@@ -25,7 +25,7 @@ export default function Card(props) {
             ? "left the group"
             : null}
           {props.data.post ? (
-            <font className="text-darkGrayishBlue font-bold ml-[.4rem]">
+            <font className="text-darkGrayishBlue font-bold ml-[.4rem] hover:text-blue">
               {props.data.post}
             </font>
           ) : props.data.group ? (
@@ -39,7 +39,7 @@ export default function Card(props) {
         </p>
         <span className="text-grayishBlue text-sm">{props.data.time}</span>
         {props.data.message ? (
-          <p className=" mt-4 text-left text-grayishBlue border-[1px] border-lightGrayishBlueTwo p-5 rounded-md ">
+          <p className=" mt-4 text-left text-darkGrayishBlue border-[1px] border-lightGrayishBlueTwo p-5 rounded-md hover:bg-lightGrayishBlueTwo">
             {props.data.message}
           </p>
         ) : null}
