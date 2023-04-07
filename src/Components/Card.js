@@ -8,11 +8,11 @@ export default function Card(props) {
       }`}
     >
       <img src={props.data.avatar} alt="user" className="w-11 h-11" />
-      <div className="flex flex-col items-start">
+      <span className="flex flex-col items-start">
         <p className="text-left text-darkGrayishBlue">
-          <font className="capitalize font-bold text-veryDarkBlue mr-[.4rem] hover:text-blue">
+          <span className="capitalize font-bold text-veryDarkBlue mr-[.4rem] hover:text-blue">
             {props.data.username}
-          </font>
+          </span>
           {props.data.type === "reaction"
             ? "reacted to your recent post"
             : props.data.type === "follow"
@@ -25,13 +25,13 @@ export default function Card(props) {
             ? "left the group"
             : null}
           {props.data.post ? (
-            <font className="text-darkGrayishBlue font-bold ml-[.4rem] hover:text-blue">
+            <span className="text-darkGrayishBlue font-bold ml-[.4rem] hover:text-blue">
               {props.data.post}
-            </font>
+            </span>
           ) : props.data.group ? (
-            <font className="text-blue font-bold ml-[.4rem]">
+            <span className="text-blue font-bold ml-[.4rem]">
               {props.data.group}
-            </font>
+            </span>
           ) : null}
           {props.data.latest ? (
             <i className="w-2.5 h-2.5 bg-red inline-block  ml-[.4rem] rounded-full"></i>
@@ -43,7 +43,7 @@ export default function Card(props) {
             {props.data.message}
           </p>
         ) : null}
-      </div>
+      </span>
     </button>
   );
 }
