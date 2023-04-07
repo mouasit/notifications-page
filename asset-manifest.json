@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/notifications-page/static/css/main.f8d8d9cf.css",
-    "main.js": "/notifications-page/static/js/main.7e3541f8.js",
+    "main.js": "/notifications-page/static/js/main.3ae5d1b2.js",
     "static/js/787.0b05b966.chunk.js": "/notifications-page/static/js/787.0b05b966.chunk.js",
     "static/media/avatar-rizky-hasanuddin.webp": "/notifications-page/static/media/avatar-rizky-hasanuddin.2c9e9a5d4982e8f1b614.webp",
     "static/media/avatar-jacob-thompson.webp": "/notifications-page/static/media/avatar-jacob-thompson.ef1880754355ebe956bb.webp",
@@ -13,11 +13,11 @@
     "static/media/avatar-angela-gray.webp": "/notifications-page/static/media/avatar-angela-gray.be3397e8fa98e1cac926.webp",
     "index.html": "/notifications-page/index.html",
     "main.f8d8d9cf.css.map": "/notifications-page/static/css/main.f8d8d9cf.css.map",
-    "main.7e3541f8.js.map": "/notifications-page/static/js/main.7e3541f8.js.map",
+    "main.3ae5d1b2.js.map": "/notifications-page/static/js/main.3ae5d1b2.js.map",
     "787.0b05b966.chunk.js.map": "/notifications-page/static/js/787.0b05b966.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8d8d9cf.css",
-    "static/js/main.7e3541f8.js"
+    "static/js/main.3ae5d1b2.js"
   ]
 }
