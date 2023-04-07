@@ -22,4 +22,4 @@ The following tools were used in the development of the Notifications Page:
 
 ## Getting Started
 
-To use the Notifications Page, simply navigate to the URL where it is hosted:
+To use the Notifications Page, simply navigate to the URL where it is hosted: https://mouasit.github.io/notifications-page/
