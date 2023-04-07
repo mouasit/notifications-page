@@ -8,8 +8,8 @@ export default function Card(props) {
       }`}
     >
       <img src={props.data.avatar} alt="user" className="w-11 h-11" />
-      <div className="flex flex-col items-start">
-        <p className="text-left text-darkGrayishBlue">
+      <span className="flex flex-col items-start">
+        <span className="text-left text-darkGrayishBlue">
           <span className="capitalize font-bold text-veryDarkBlue mr-[.4rem] hover:text-blue">
             {props.data.username}
           </span>
@@ -36,14 +36,14 @@ export default function Card(props) {
           {props.data.latest ? (
             <i className="w-2.5 h-2.5 bg-red inline-block  ml-[.4rem] rounded-full"></i>
           ) : null}
-        </p>
+        </span>
         <span className="text-grayishBlue text-sm">{props.data.time}</span>
         {props.data.message ? (
           <p className=" mt-4 text-left text-darkGrayishBlue border-[1px] border-lightGrayishBlueTwo p-5 rounded-md hover:bg-lightGrayishBlueTwo">
             {props.data.message}
           </p>
         ) : null}
-      </div>
+      </span>
     </button>
   );
 }
